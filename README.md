@@ -8,6 +8,8 @@ CCNA-certified, with a bachelor's degree in IT. Interested in networking and cyb
 ## Labs
 
 ### 01 - Small Office Network
+
+![topology](topology.png)
 - Subnetting: 192.168.10.0/24 split into three /26 subnets
 - VLANs: Sales (10), IT (20), Guest (30)
 - Trunk and access ports
@@ -18,3 +20,5 @@ CCNA-certified, with a bachelor's degree in IT. Interested in networking and cyb
 
 ## Tools
 Cisco Packet Tracer
+
+
