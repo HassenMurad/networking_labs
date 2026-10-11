@@ -37,4 +37,20 @@ Cisco Packet Tracer
 Cisco Packet Tracer
 
 
+### 03 - Secure Branch Network
+
+![Topology](03-topology.png)
+- Single branch with three departments: Admin, Staff, Guest
+- VLANs (10, 20, 30) with a trunk link between the two switches
+- Router-on-a-Stick for Inter-VLAN routing
+- NAT/PAT for internet access
+- Centralized DHCP server at the ISP, with ip helper-address (DHCP relay) on the branch router
+- ACLs: Guest limited to internet only, Staff blocked from Admin
+- Port Security on access ports: sticky MAC, shutdown on violation
+- DHCP Snooping with trusted trunk/uplink ports and rate limiting on access ports
+- Remote access secured with SSH, login banner, and encrypted passwords
+
+- - ## Tools
+Cisco Packet Tracer
+
 
